@@ -9,6 +9,7 @@ Source0:	http://download.forge.objectweb.org/sync4j/funambol-cpp-api-%{version}.
 URL:		http://www.funambol.org/
 BuildRequires:	curl-devel
 BuildRequires:	libstdc++-devel
+BuildRequires:	unzip
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
